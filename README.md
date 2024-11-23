@@ -35,7 +35,7 @@ This is an advanced plagiarism and AI content detection tool that allows users t
 
 ## Demo
 
-You can see a live demo of the tool at (https://ayushgorlawar.github.io/Plagiarism-AI-Detection/)[Plagiarism & AI Detection].
+You can see a live demo of the tool at (Plagiarism & AI Detection)[https://ayushgorlawar.github.io/Plagiarism-AI-Detection/].
 
 ## Folder Structure
 /project-directory 
