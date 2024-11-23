@@ -35,7 +35,11 @@ This is an advanced plagiarism and AI content detection tool that allows users t
 
 ## Demo
 
-[Plagiarism & AI Detection](https://ayushgorlawar.github.io/Plagiarism-AI-Detection/)
+## Live Demo
+Click the button below to access the live demo of the tool:
+
+[![Demo](https://img.shields.io/badge/Demo-Live-blue?style=for-the-badge&logo=github)](https://ayushgorlawar.github.io/Plagiarism-AI-Detection/)
+
 
 
 ## Folder Structure
