@@ -33,7 +33,6 @@ This is an advanced plagiarism and AI content detection tool that allows users t
 3. **Click "Check Content"**: After entering the text or uploading a file, click the "Check Content" button to analyze the content.
 4. **View Results**: The results will display the plagiarism score, uniqueness score, AI detection, and the most similar document.
 
-## Demo
 
 ## Live Demo
 Click the button below to access the live demo of the tool:
