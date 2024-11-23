@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Plagiarism & AI Detection</title>
+    <style>
+        /* General body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh; /* Ensures the footer stays at the bottom */
+        }
+    
+        /* Container styles */
+        .container {
+            width: 90%;
+            max-width: 800px;
+            margin: 50px auto;
+            text-align: center;
+            background: #879dfff1;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            flex-grow: 1; /* Makes sure the container takes up the available space */
+        }
+    
+        /* Header style */
+        h1 {
+            color: #000000;
+            font-size: 28px;
+            margin-bottom: 20px;
+        }
+    
+        /* Textarea for user input */
+        textarea {
+            width: 100%;
+            height: 150px;
+            margin: 20px 0;
+            padding: 3px;
+            border: 2px solid #ff0000;
+            border-radius: 5px;
+            font-size: 16px;
+            resize: none;
+        }
+    
+        /* Centered container for buttons */
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+    
+        /* Button styles */
+        button, input[type="file"] {
+            padding: 12px 20px;
+            background-color: #08a4ff;
+            color: rgb(0, 0, 0);
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+            max-width: 300px;
+            transition: all 0.3s ease; /* Smooth transition for hover effect */
+        }
+    
+        /* Glowing effect on hover */
+        button:hover, input[type="file"]:hover {
+            background-color: #ddff00;
+            box-shadow: 0 0 20px rgba(77, 255, 0, 0.8); /* Glowing effect */
+            transform: translateY(-3px); /* Slight lift effect */
+        }
+    
+        /* Result text styles */
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            color: #000000;
+        }
+    
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 24px;
+            }
+    
+            button, input[type="file"] {
+                font-size: 14px;
+                width: 100%;
+                padding: 10px 15px;
+            }
+    
+            textarea {
+                font-size: 14px;
+                height: 120px;
+            }
+        }
+    
+        /* Very small screens (phones) */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 20px;
+            }
+    
+            button, input[type="file"] {
+                font-size: 14px;
+                width: 100%;
+                padding: 8px 12px;
+            }
+    
+            textarea {
+                font-size: 14px;
+                height: 100px;
+            }
+        }
+    
+        /* Footer styles */
+        footer {
+            background-color: #000000;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    
+        footer a {
+            color: #00aaff;
+            text-decoration: none;
+        }
+    
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h1>Plagiarism & AI Detection</h1>
+        <textarea id="inputText" placeholder="Paste or write text here..."></textarea>
+        
+        <!-- Centered button container -->
+        <div class="button-container">
+            <button id="checkBtn">Check Content</button>
+            <input type="file" id="fileInput" accept=".txt,.doc,.pdf" />
+        </div>
+
+        <div class="result" id="result"></div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; Ayush Gorlawar-  Plagiarism & AI Detection | <a href="#">Licence</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
